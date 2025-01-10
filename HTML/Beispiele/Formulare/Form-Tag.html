@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularelemente</title>
+</head>
+<body>
+    <h1>Beispiel für verschiedene Formularelemente</h1>
+    <!-- Beginn des Formulars -->
+    <form action="/submit" method="post">
+        <!-- Suchfeld Section -->
+            <h2>Suchfeld</h2>
+            <label for="textfield">Suchbegriff:</label>
+            <input type="text" id="textfield" name="textfield" placeholder="Suchbegriff eingeben">
+            <br><br>
+        <!-- Passwortfeld Section -->
+            <h2>Passwortfeld</h2>
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password" placeholder="Passwort eingeben">
+            <br><br>
+        <!-- Textbereich Section -->
+            <h2>Textbereich</h2>
+            <label for="textarea">Beitrag:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Schreiben Sie Ihren Beitrag hier..."></textarea>
+            <br><br>
+        <!-- Radiobuttons Section -->
+            <h2>Lieferant wählen</h2>
+            <label>Lieferant wählen:</label><br>
+            <input type="radio" id="lieferant1" name="lieferant" value="lieferant1">
+            <label for="lieferant1">Lieferant 1</label><br>
+            <input type="radio" id="lieferant2" name="lieferant" value="lieferant2">
+            <label for="lieferant2">Lieferant 2</label><br><br>
+        <!-- Checkboxen Section -->
+            <h2>Zustimmungen</h2>
+            <label>Zustimmungen:</label><br>
+            <input type="checkbox" id="agb" name="agb">
+            <label for="agb">Ich akzeptiere die AGB</label><br>
+            <input type="checkbox" id="datenschutz" name="datenschutz">
+            <label for="datenschutz">Ich akzeptiere die Datenschutzrichtlinie</label>
+			<br><br>
+        <!-- Auswahlliste Section -->
+            <h2>Adresse wählen</h2>
+            <label for="adresse">Adresse wählen:</label>
+            <select id="adresse" name="adresse">
+                <option value="strasse1">Straße 1</option>
+                <option value="strasse2">Straße 2</option>
+                <option value="strasse3">Straße 3</option>
+            </select>
+            <br><br>
+        <!-- Dateiupload Section -->
+            <h2>Foto hochladen</h2>
+            <label for="fileupload">Foto hochladen:</label>
+            <input type="file" id="fileupload" name="fileupload">
+            <br><br>
+        <!-- Formular absenden Button Section -->
+            <button type="submit">Formular absenden</button
+    </form>
+    <!-- Ende des Formulars -->
+</body>
+</html>

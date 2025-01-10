@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meine erweiterte Webseite mit Attributen und Tabelle</title>
+</head>
+ <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<body>
+    <h1>Meine erweiterte Webseite mit Attributen und Tabelle</h1>
+    <p id="intro">Das hier ist ein Paragraph mit einem 
+	<a href="https://de.wikipedia.org" target="_blank" title="Wikipedia">externen Link</a>.</p>
+    <h2 class="subheading">Das hier ist eine Zwischenüberschrift</h2>
+    <img src="Bill.webp" alt="Bill" width="300" height="200">
+    <p>
+        Hier steht ein weiterer Paragraph mit <i lang="en">italic</i> Text und
+        <b style="font-size: 20px;">fett gedrucktem Text</b>.
+    </p>
+    <h2 class="subheading" data-info="Zusätzliche Information">Das hier ist noch eine Zwischenüberschrift</h2>
+    
+    <h3>Ungeordnete Liste:</h3>
+    <ul>
+        <li>Erster Punkt</li>
+        <li>Zweiter Punkt</li>
+        <li>Dritter Punkt</li>
+    </ul>
+    
+    <h3>Geordnete Liste:</h3>
+    <ol>
+        <li>Erster Schritt</li>
+        <li>Zweiter Schritt</li>
+        <li>Dritter Schritt</li>
+    </ol>
+    
+    <input type="text" placeholder="Geben Sie etwas ein" maxlength="20">
+    
+    <h3>Meine Fähigkeiten</h3>
+    <table>
+        <caption>Liste meiner Fähigkeiten</caption>
+        <thead>
+            <tr>
+                <th>Fähigkeit</th>
+                <th>Erfahrungslevel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Fortgeschritten</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Fortgeschritten</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Fortgeschritten</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Mittel</td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>Mittel</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
