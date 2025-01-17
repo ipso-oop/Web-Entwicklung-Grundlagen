@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.heading {
+    color: #4682b4;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.subheading {
+    color: #6a5acd;
+    font-size: 28px;
+    border-bottom: 2px dotted #6a5acd;
+    margin-bottom: 10px;
+}
+
+#intro {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dc143c;
+}
+
+.bold {
+    color: #8b0000;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
