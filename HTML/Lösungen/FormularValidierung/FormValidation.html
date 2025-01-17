@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formular-Validierung Aufgabe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        textarea {
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            width: 100%;
+            max-width: 400px;
+            padding: 8px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+        .success {
+            color: green;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formular-Validierung Aufgabe</h1>
+
+    <form id="userForm">
+        
+        <!-- Name Section -->
+        <section>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Geben Sie Ihren Namen ein">
+        </section>
+
+        <!-- Passwort Section -->
+        <section>
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password" placeholder="Passwort eingeben">
+        </section>
+
+        <!-- Kommentar Section -->
+        <section>
+            <label for="comment">Kommentar:</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Schreiben Sie Ihren Kommentar hier..."></textarea>
+        </section>
+
+        <!-- Radiobuttons Section -->
+        <section>
+            <h2>Lieferoption wählen</h2>
+			<label for="standard">Standardlieferung</label>
+			<input type="radio" id="standard" name="lieferoption" value="standard">
+			<label for="express">Expresslieferung</label>
+            <input type="radio" id="express" name="lieferoption" value="express">
+        </section>
+
+        <!-- Checkboxen Section -->
+        <section>
+            <h2>Zustimmungen</h2>
+            <input type="checkbox" id="agb" name="agb">Ich akzeptiere die AGB</input>
+            <input type="checkbox" id="datenschutz" name="datenschutz">Ich akzeptiere die Datenschutzrichtlinie</input>
+        </section>
+
+        <!-- Dateiupload Section -->
+        <section>
+            <h2>Foto hochladen</h2>
+            <input type="file" id="fileupload" name="fileupload">
+        </section>
+
+        <!-- Formular absenden Button Section -->
+        <section>
+            <button type="submit">Absenden</button>
+        </section>
+
+        <!-- Fehlermeldung -->
+        <p id="output" class="error"></p>
+        <!-- Erfolgsnachricht -->
+        <p id="success" class="success"></p>
+
+    </form>
+
+    <script>
+        // JavaScript für Formularvalidierung und Verarbeitung
+        document.getElementById('userForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Verhindert das Absenden des Formulars
+
+            var name = document.getElementById('name').value;
+            var password = document.getElementById('password').value;
+            var comment = document.getElementById('comment').value;
+            var lieferoption = document.querySelector('input[name="lieferoption"]:checked');
+            var agb = document.getElementById('agb').checked;
+            var datenschutz = document.getElementById('datenschutz').checked;
+
+            var output = document.getElementById('output');
+            var success = document.getElementById('success');
+            output.textContent = ''; // Fehlermeldungen zurücksetzen
+            success.textContent = ''; // Erfolgsmeldung zurücksetzen
+
+            // Validierung
+            if (name === '') {
+                output.textContent = 'Bitte geben Sie Ihren Namen ein.';
+                document.getElementById('name').focus();
+                return;
+            }
+            if (password === '') {
+                output.textContent = 'Bitte geben Sie Ihr Passwort ein.';
+                document.getElementById('password').focus();
+                return;
+            }
+            if (!lieferoption) {
+                output.textContent = 'Bitte wählen Sie eine Lieferoption.';
+                return;
+            }
+            if (!agb || !datenschutz) {
+                output.textContent = 'Bitte stimmen Sie den AGB und der Datenschutzrichtlinie zu.';
+                return;
+            }
+
+            // Erfolgsnachricht
+            success.textContent = 'Formular erfolgreich abgesendet! Name: ' + name + ', Kommentar: ' + comment;
+        });
+    </script>
+
+</body>
+</html>
