@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Über mich</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner Seite</h1>
+    </header>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <p id="intro">Hallo! Mein Name ist Roman Camenzind und ich bin Dozent.</p>
+        <button onclick="changeText()">Mehr über mich erfahren</button>
+        <button onclick="toggleHobbies()">Meine Hobbys anzeigen</button>
+        <ul id="hobbies" style="display:none;">
+            <li>Programmieren</li>
+            <li>Wandern</li>
+            <li>Biken</li>
+            <li>Lesen</li>
+			<li>Schwimmen</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Du kannst mich per E-Mail unter <a href="mailto:roman.camenzind@dozent.ipso.ch">roman.camenzind@dozent.ipso.ch</a> erreichen.</p>
+        <button onclick="toggleContactInfo()">Kontaktinformationen anzeigen</button>
+        <div id="additionalContact" style="display:none;">
+            <p>Telefon: 0123 456789</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Roman Camenzind</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
