@@ -1,0 +1,25 @@
+/* Universal-Selektor: Setzt die Schriftart für alle Elemente */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Typselektor: Stellt die Farbe der Überschrift <h1> ein */
+h1 {
+    color: blue;
+}
+
+/* Typselektor: Stellt die Farbe der Absätze <p> ein */
+p {
+    color: green;
+}
+
+/* Klassenselektor: Wählt Elemente mit der Klasse "highlight" und setzt die Hintergrundfarbe */
+.highlight {
+    background-color: yellow;
+}
+
+/* ID-Selektor: Wählt das Element mit der ID "wichtig" und setzt die Schriftgröße */
+#wichtig {
+    font-size: 20px;
+    color: red;
+}

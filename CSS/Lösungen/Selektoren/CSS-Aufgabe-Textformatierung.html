@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Vererbung Beispiel</title>
+    <style>
+        /* Übergeordnete Stile */
+        body {
+            font-family: Arial, sans-serif; /* Schriftart wird vererbt */
+            color: blue; /* Textfarbe wird vererbt */
+        }
+
+        /* Stile für Überschriften */
+        h1 {
+            font-family: Arial; /* Spezifische Schriftart für Überschriften */
+            color: red; /* Spezifische Textfarbe für Überschriften */
+        }
+
+        /* Nicht vererbte Eigenschaft */
+        .rahmen {
+            border: 2px solid red; /* Rahmen wird nicht vererbt */
+            font-style: italic; /* Text im Rahmen wird kursiv dargestellt */
+            background-color: #f0f0f0; /* Hintergrundfarbe für Absätze im Rahmen */
+            color: black; /* Textfarbe für Absätze im Rahmen */
+        }
+
+        /* Spezifische Regel für ein untergeordnetes Element */
+        p.spezial {
+            color: green; /* Überschreibt die vererbte Textfarbe */
+        }
+
+        /* Neue Klasse für wichtige Texte */
+        .wichtig {
+            font-weight: bold; /* Text fett */
+            color: darkblue; /* Textfarbe dunkelblau */
+        }
+    </style>
+</head>
+<body>
+    <h1>Überschrift 1</h1>
+    <p>Dieser Absatz erbt die Schriftart und die Farbe vom <strong>body</strong>.</p>
+
+    <div class="rahmen">
+        <p>Dieser Absatz ist in einem <strong>div</strong> mit einem roten Rahmen. Die Rahmen-Eigenschaft wird nicht vererbt.</p>
+        <p class="spezial">Dieser Absatz überschreibt die geerbte Farbe mit einer eigenen.</p>
+        <p class="wichtig">Dies ist ein wichtiger Absatz mit spezieller Formatierung.</p>
+    </div>
+
+    <p>Ein weiterer Absatz, der die Schriftart und die Farbe vom <strong>body</strong> erbt. <span class="wichtig">Dies ist ein wichtiger Hinweis.</span></p>
+</body>
+</html>
