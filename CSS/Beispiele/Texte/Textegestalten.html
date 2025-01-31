@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schriften formatieren</title>
+    <style type="text/css">
+        /* Definiert die allgemeine Schriftart und das Layout für den gesamten Body-Text */
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Festlegung der Schriftart auf Times New Roman */
+            line-height: 1.5em; /* Erhöht den Zeilenabstand für bessere Lesbarkeit */
+            letter-spacing: 0.2em; /* Vergrößert den Zeichenabstand leicht */
+            word-spacing: 0.3em; /* Vergrößert den Wortabstand leicht */
+        }
+
+        /* Stil für Überschriften erster und zweiter Ordnung */
+        h1, h2 {
+            font-family: Arial; /* Setzt die Schriftart für alle h1 und h2 Überschriften auf Arial */
+        }
+
+        /* Spezifischer Stil für h1 Überschriften */
+        h1 {
+            font-size: 150%; /* Erhöht die Schriftgröße um 150% der Standardgröße */
+        }
+
+        /* Spezifischer Stil für h2 Überschriften */
+        h2 {
+            font-size: 100%; /* Setzt die Schriftgröße auf die Standardgröße */
+            text-transform: uppercase; /* Wandelt den Text in Großbuchstaben um */
+            text-decoration: underline; /* Unterstreicht den Text */
+        }
+
+        /* Stil für Absätze */
+        p {
+            text-align: justify; /* Setzt den Text im Blocksatz, um die Ränder gleichmäßig zu machen */
+        }
+
+        /* Stil für Listenelemente in ungeordneten Listen */
+        ul li {
+            font-family: 'Courier New', Courier, monospace; /* Verwendet eine monospaced Schriftart für Listenelemente */
+        }
+
+        /* Stil für normale Links */
+        a:link {
+            color: blue; /* Setzt die Farbe von Links, die noch nicht besucht wurden, auf Blau */
+        }
+
+        /* Stil für bereits besuchte Links */
+        a:visited {
+            color: green; /* Setzt die Farbe von Links, die schon besucht wurden, auf Grün */
+        }
+
+        /* Stil für Links, wenn sie mit der Maus überfahren werden */
+        a:hover {
+            color: black; /* Setzt die Linkfarbe auf Schwarz, wenn der Mauszeiger darüber ist */
+            background-color: orange; /* Setzt den Hintergrund auf Orange, wenn der Mauszeiger darüber ist */
+        }
+
+        /* Stil für Links, wenn sie gerade geklickt werden */
+        a:active {
+            color: red; /* Setzt die Linkfarbe auf Rot, während des Klicks */
+        }
+
+        /* Stil für Elemente mit der Klasse "introduction" */
+        .introduction {
+            font-style: italic; /* Setzt den Text in Kursivschrift */
+            font-weight: bold; /* Macht den Text fett */
+        }
+
+        /* Stil für Elemente mit der Klasse "author" */
+        .author {
+            font-family: Verdana; /* Setzt die Schriftart auf Verdana */
+            line-height: 0.3em; /* Setzt den Zeilenabstand auf das 0,3-fache der normalen Schriftgröße */
+            text-align: right; /* Richtet den Text rechts aus */
+        }
+
+        /* Stil für Elemente mit der Klasse "date" */
+        .date {
+            font-family: 'Courier New', Courier, monospace; /* Verwendet eine monospaced Schriftart */
+            line-height: 0.3em; /* Setzt den Zeilenabstand auf das 0,3-fache der normalen Schriftgröße */
+            text-align: right; /* Richtet den Text rechts aus */
+        }
+    </style>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Blog posts</h1>
+    <article>
+        <h2>Neue Website</h2>
+        <p class="introduction">
+            Liebe Leserinnen und Leser,
+        </p>
+        <p>
+            ab sofort finden Sie die Blogs zu meinen Büchern vereint auf dieser Website. Auf diese Weise bleiben Sie an einer einzigen zentralen Stelle immer auf dem Laufenden, wenn es um Updates rund um die genannten Bücher oder allgemeine Informationen, Tutorials etc. rund um die Web- und Softwareentwicklung geht.
+        </p>
+        <p>
+            News und Updates in Microblogging-Kurzform finden Sie darüber hinaus auch bei Twitter:
+        </p>
+        <p>
+            <ul>
+                <li><a href="https://twitter.com/cleancoderocker">@cleancoderocker</a></li>
+                <li><a href="https://twitter.com/webdevhandbuch">@webdevhandbuch</a></li>
+                <li><a href="https://twitter.com/nodejskochbuch">@nodejskochbuch</a></li>
+                <li><a href="https://twitter.com/jshandbuch">@jshandbuch</a></li>
+                <li><a href="https://twitter.com/jsprofibuch">@jsprofibuch</a></li>
+            </ul>
+        </p>
+        <p>
+            Viel Spaß damit!
+        </p>
+        <p class="author">Philip Ackermann</p>
+        <p class="date">Mai 2020</p>
+    </article>
+</body>
+</html>
