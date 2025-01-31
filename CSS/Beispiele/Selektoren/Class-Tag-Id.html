@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selektor Beispiel</title>
+    <style>
+        /* Typselektor */
+        input {
+            color: green; /* Alle <input>-Elemente werden grün */
+        }
+        
+        h1, h2 {
+            color: blue; /* Alle <h1> und <h2> Elemente werden blau */
+        }
+
+        /* Klassenselektor */
+        .valid {
+            color: green; /* Alle Elemente mit der Klasse "valid" werden grün */
+        }
+
+        a.valid {
+            font-weight: bold; /* Alle <a>-Elemente mit der Klasse "valid" werden fett */
+        }
+
+        /* ID-Selektor */
+        #start {
+            color: red; /* Das Element mit der ID "start" wird rot */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Typselektor-Beispiele -->
+    <h1>Überschrift 1</h1>
+    <h2>Überschrift 2</h2>
+    <input type="text" value="Ein Textfeld">
+
+    <!-- Klassenselektor-Beispiele -->
+    <p class="valid">Dies ist ein gültiger Absatz.</p>
+    <a href="#" class="valid">Dies ist ein gültiger Link</a>
+    <a href="#">Dies ist ein normaler Link</a>
+
+    <!-- ID-Selektor-Beispiel -->
+    <p id="start">Dieser Absatz hat eine spezielle ID und wird rot angezeigt.</p>
+
+</body>
+</html>

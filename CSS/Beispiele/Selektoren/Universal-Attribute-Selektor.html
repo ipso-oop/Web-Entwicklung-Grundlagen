@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selektor Beispiel</title>
+    <style>
+        /* Universal-Selektor */
+        * {
+            color: green; /* Alle Elemente auf der Seite haben grünen Text */
+        }
+
+        /* Attributselektor für ein bestimmtes Attribut */
+        [type="text"] {
+            background-color: yellow; /* Alle <input>-Elemente mit type="text" haben einen gelben Hintergrund */
+        }
+
+        /* Attributselektor für ein Attribut mit bestimmtem Wert */
+        [type~="button"] {
+            border: 2px solid red; /* Alle <input>-Elemente mit einem type-Wert, der "button" enthält, haben einen roten Rahmen */
+        }
+
+        /* Attributselektor für Wert mit Bindestrich */
+        [lang|="en"] {
+            font-style: italic; /* Elemente mit dem Attribut lang, das "en" ist oder mit "en-" beginnt, sind kursiv */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Beispiele für Universal- und Attributselektoren</h1>
+
+    <!-- Beispiel für Universal-Selektor -->
+    <p>Dieser Absatz wird durch den Universal-Selektor grün dargestellt.</p>
+
+    <!-- Beispiel für Attributselektor [type="text"] -->
+    <input type="text" value="Textfeld mit gelbem Hintergrund">
+
+    <!-- Beispiel für Attributselektor [type~="button"] -->
+    <input type="button" value="Button mit rotem Rahmen">
+
+    <!-- Beispiel für Attributselektor [lang|="en"] -->
+    <p lang="en">Dieser Absatz hat das Sprachattribut "en" und ist kursiv.</p>
+    <p lang="en-us">Auch dieser Absatz ist kursiv, da er das Sprachattribut "en-us" hat.</p>
+    <p lang="de">Dieser Absatz ist nicht kursiv, da das Sprachattribut nicht mit "en" beginnt.</p>
+
+</body>
+</html>

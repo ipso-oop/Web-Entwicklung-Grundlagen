@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Vererbung Beispiel</title>
+    <style>
+        /* Übergeordnete Stile */
+        body {
+            font-family: Arial, sans-serif; /* Schriftart wird vererbt */
+            color: blue; /* Textfarbe wird vererbt */
+        }
+
+        /* Nicht vererbte Eigenschaft */
+        .rahmen {
+            border: 2px solid red; /* Rahmen wird nicht vererbt */
+        }
+
+        /* Spezifische Regel für ein untergeordnetes Element */
+        p.spezial {
+            color: green; /* Überschreibt die vererbte Textfarbe */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ueberschrift 1</h1>
+    <p>Dieser Absatz erbt die Schriftart und die Farbe vom <strong>body</strong>.</p>
+
+    <div class="rahmen">
+        <p>Dieser Absatz ist in einem <strong>div</strong> mit einem roten Rahmen. Die Rahmen-Eigenschaft wird nicht vererbt.</p>
+        <p class="spezial">Dieser Absatz ueberschreibt die geerbte Farbe mit einer eigenen.</p>
+    </div>
+
+    <p>Ein weiterer Absatz, der die Schriftart und die Farbe vom <strong>body</strong> erbt.</p>
+
+</body>
+</html>

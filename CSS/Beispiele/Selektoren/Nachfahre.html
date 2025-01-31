@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nachfahrenselektor Beispiel</title>
+    <style>
+        /* Nachfahrenselektor */
+        body ul {
+            color: green; /* Alle <ul>-Elemente innerhalb des <body> werden grün dargestellt */
+        }
+
+        body ul li {
+            font-weight: bold; /* Alle <li>-Elemente innerhalb von <ul>, die im <body> sind, werden fett dargestellt */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Beispiel für Nachfahrenselektoren</h1>
+
+    <!-- Ungeordnete Liste direkt im Body -->
+    <ul>Nicht Fett aber grün (body ul)
+        <li>Erstes Listenelement</li>
+        <li>Zweites Listenelement</li>
+    </ul>
+
+    <!-- Ein <div> enthält eine ungeordnete Liste -->
+    <div>
+        <ul>
+            <li>Drittes Listenelement</li>
+            <li>Viertes Listenelement</li>
+        </ul>
+    </div>
+
+    <!-- Geschachtelte Listen -->
+    <ul>
+        <li>Fünftes Listenelement
+            <ul>
+                <li>Erstes geschachteltes Listenelement</li>
+                <li>Zweites geschachteltes Listenelement</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Erweiterte CSS Selektor Beispiele</title>
+    <style>
+        /* Alle p-Elemente grün darstellen */
+        p {
+            color: green; /* Alle Absätze werden standardmäßig grün dargestellt */
+        }
+
+        /* Angrenzende Geschwisterselektoren */
+        h1 + p {
+            color: blue; /* Absätze, die direkt nach einer h1-Überschrift folgen, werden grün dargestellt */
+        }
+
+        /* Allgemeine Geschwisterselektoren, dieses Tag hat Vorrang gegenüber h1 + p */
+        h1 ~ p {
+            color: purple; /* Alle Absätze, die irgendwo nach einer h1-Überschrift folgen, werden lila dargestellt */
+        }
+
+        /* Attributselektor beginnt mit (^=) */
+        [href^="https"] {
+            color: blue; /* Links, die mit "https" beginnen, werden blau dargestellt */
+        }
+
+        /* Attributselektor endet mit ($=) */
+        [href$=".pdf"] {
+            text-decoration: underline; /* Links, die auf ".pdf" enden, werden unterstrichen */
+        }
+
+        /* Attributselektor enthält (*=) */
+        [href*="example"] {
+            font-weight: bold; /* Links, die "example" enthalten, werden fett dargestellt */
+        }
+
+        /* Kindselektoren */
+        body > ul {
+            color: red; /* Ungeordnete Listen, die direkte Kinder von <body> sind, werden rot dargestellt */
+        }
+    </style>
+</head>
+<body>
+     <ul>
+	    Rot, weil direkt nach body (body > ul)
+        <li>Erstes Listenelement</li>
+        <li>Zweites Listenelement</li>
+    </ul>
+	
+    <h1>Erste Überschrift</h1>
+    <p>Dieser Absatz kommt direkt nach einer h1-Überschrift und wird lila angezeigt wegen Vorrang h1 ~ p vor h1 + p</p>
+
+    <h1>Zweite Überschrift</h1>
+    <div>
+        <p>Dieser Absatz kommt nicht direkt nach einer h1-Überschrift, sondern innerhalb eines</p>
+    </div>
+    <p>Dieser Absatz folgt irgendwann nach einer h1-Überschrift und wird lila angezeigt.</p>
+
+    <a href="https://www.example.com">HTTPS Link mit "example" im URL</a><br>
+    <a href="http://www.example.com/document.pdf">Link zu einer PDF-Datei</a><br>
+    <a href="https://anotherwebsite.com">Ein anderer HTTPS Link</a>
+
+    
+
+</body>
+</html>
