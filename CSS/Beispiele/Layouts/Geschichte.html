@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selektor Beispiel</title>
+    <style>
+        /* Universal-Selektor */
+        * {
+            color: green; /* Alle Elemente auf der Seite haben grünen Text */
+        }
+
+        /* Attributselektor für ein bestimmtes Attribut */
+        [type="text"] {
+            background-color: yellow; /* Alle <input>-Elemente mit type="text" haben einen gelben Hintergrund */
+        }
+
+        /* Attributselektor für ein Attribut mit bestimmtem Wert */
+        [type~="button"] {
+            border: 2px solid red; /* Alle <input>-Elemente mit einem type-Wert, der "button" enthält, haben einen roten Rahmen */
+        }
+
+        /* Attributselektor für Wert mit Bindestrich */
+        [lang|="en"] {
+            font-style: italic; /* Elemente mit dem Attribut lang, das "en" ist oder mit "en-" beginnt, sind kursiv */
+        }
+    </style>
+</head>
+<body>
+<!-- Früher: Tabelle für Layout -->
+<table>
+  <tr>
+    <td>Inhalt 1</td>
+    <td>Inhalt 2</td>
+  </tr>
+</table>
+<!-- Heute: Flexbox -->
+<div style="display: flex;">
+  <div>Inhalt 1</div>
+  <div>Inhalt 2</div>
+</div>
+
+</body>
+</html>

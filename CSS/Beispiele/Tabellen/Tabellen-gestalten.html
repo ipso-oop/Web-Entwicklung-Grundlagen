@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabellen formatieren</title>
+    <style type="text/css">
+        body {
+            font-family: Verdana, sans-serif; /* Setzt die Schriftart für die gesamte Seite */
+        }
+
+        table {
+            border: thin solid #000000; /* Dünner, durchgehender, schwarzer Rand um die Tabelle */
+            border-collapse: collapse; /* Keine doppelten Ränder bei angrenzenden Zellen */
+        }
+
+        th {
+            background-color: #000000; /* Hintergrundfarbe der Tabellenüberschriften: Schwarz */
+            color: #FFFFFF; /* Schriftfarbe der Tabellenüberschriften: Weiß */
+            text-align: left; /* Text der Tabellenüberschriften links ausrichten */
+        }
+
+        th, td {
+            padding: 11px; /* Polsterung für Tabellenüberschriften und Zellen für bessere Lesbarkeit */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #CCCCCC; /* Ungerade Zeilen: Hellgrauer Hintergrund */
+        }
+
+        tr:nth-child(even) {
+            background-color: #FFFFFF; /* Gerade Zeilen: Weißer Hintergrund */
+        }
+
+        td:first-child {
+            font-weight: bold; /* Erste Spalte: Text fett */
+        }
+
+        td:nth-child(2) {
+            font-style: italic; /* Zweite Spalte: Text kursiv */
+        }
+
+        td:nth-child(3) {
+            text-align: right; /* Dritte Spalte: Text rechts ausrichten */
+        }
+    </style>
+</head>
+<body>
+    <h1>Empfehlenswerte Bücher zu CSS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Autor</th>
+                <th>Titel</th>
+                <th>Erscheinungsjahr</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Keith J. Grant</td>
+                <td>CSS in Depth</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Eric A. Meyer</td>
+                <td>CSS Pocket Reference: Visual Presentation for the Web</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Eric Meyer & Estelle Weyl</td>
+                <td>CSS: The Definitive Guide: Visual Presentation for the Web</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Lea Verou</td>
+                <td>CSS Secrets: Better Solutions to Everyday Web Design Problems</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Peter Gasston</td>
+                <td>The Book of CSS3: A Developer's Guide to the Future of Web Design</td>
+                <td>2014</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
