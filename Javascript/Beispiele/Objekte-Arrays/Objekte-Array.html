@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Funktionen und Fehlerbehandlung Beispiel</title>
+</head>
+<body>
+<script>
+	let person = {
+	  name: "Max",
+	  age: 30,
+	  greet: function() {
+		console.log("Hallo Objekt: " + this.name + " " + this.age);
+	  }
+	};
+	
+person.greet();
+
+let colors = ["rot", "grün", "blau"];
+console.log("Erstes Arrays-Feld: "+colors[0]); // Gibt "rot" aus
+
+    </script>
+</body>
+</html>

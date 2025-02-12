@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularValidierung mit Java-Script Repetitionsbeispiel</title>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+			padding: 20px;
+			background-color: #f4f4f4;
+		}
+    </style>
+</head>
+<body>
+<form id="simpleForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+	 <span id="error-message" style="color:red;"></span>
+    <button type="submit">Absenden</button>
+</form>
+<script>
+// Funktion zur Validierung
+function validateForm() {
+    const nameField = document.getElementById("name").value;
+    const errorMessage = document.getElementById("error-message");
+
+    if (nameField === "") {
+        errorMessage.textContent = "Bitte geben Sie einen Namen ein.";
+        return false;  // Validierung fehlgeschlagen
+    } else {
+        errorMessage.textContent = "";
+        return true;  // Validierung erfolgreich
+    }
+}
+
+// Event Listener für das Formular
+document.getElementById("simpleForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Verhindert das Absenden des Formulars
+
+    // Wenn die Validierung erfolgreich ist, kann das Formular abgeschickt werden
+    if (validateForm()) {
+        alert("Formular erfolgreich abgeschickt!");
+        // Hier könnte der Formularversand oder andere Aktionen erfolgen
+    }
+});
+</script>
+</body>
+</html>

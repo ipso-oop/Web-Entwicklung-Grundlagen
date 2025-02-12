@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Funktionen und Fehlerbehandlung Beispiel</title>
+</head>
+<body>
+<script>
+	function sum(a, b) {
+	  return a + b;
+	}
+	
+	let i,z;
+	i=5;
+	z=7;
+	
+	console.log(sum(i, z)); // Gibt 12 aus
+
+	try {
+	  throw new Error("Etwas ist schiefgelaufen");
+	} catch (e) {
+	  console.error(e.message);
+	}
+
+    </script>
+</body>
+</html>
