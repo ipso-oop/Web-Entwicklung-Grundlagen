@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <style>
+	body {
+    font-family: Arial, sans-serif;      /* Definiert die Schriftart des gesamten Dokuments */
+    padding: 20px;                       /* Fügt einen Innenabstand für den gesamten Body-Bereich hinzu */
+    background-color: #f4f4f4;           /* Setzt eine helle graue Hintergrundfarbe für die Seite */
+    }
+
+	form {
+		display: grid;                       /* Definiert das Layout des Formulars als Grid-Layout! */
+		grid-template-columns: 1fr 2fr;      /* Erstellt zwei Spalten, wobei die zweite Spalte doppelt so breit ist! */
+		grid-gap: 10px;                      /* Fügt einen Abstand von 10px zwischen den Grid-Elementen hinzu */
+		max-width: 600px;                    /* Setzt die maximale Breite des Formulars auf 600px */
+		margin: 0 auto;                      /* Zentriert das Formular horizontal auf der Seite */
+		padding: 20px;                       /* Fügt einen Innenabstand von 20px innerhalb des Formulars hinzu */
+		background-color: #fff;              /* Setzt eine weiße Hintergrundfarbe für das Formular */
+		border: 1px solid #ccc;              /* Fügt einen grauen Rahmen um das Formular hinzu */
+		border-radius: 5px;                  /* Macht die Ecken des Formulars leicht abgerundet */
+	}
+
+	label {
+		text-align: left;                    /* Richtet den Text der Labels nach links aus! */
+		margin: 10px;                        /* Fügt einen Außenabstand von 10px um jedes Label hinzu */
+		padding-right: 10px;                 /* Fügt einen Abstand von 10px rechts vom Label hinzu */
+		grid-column: 1 / 2;                  /* Positioniert die Labels in der ersten Spalte des Grid-Layouts */
+		align-self: center;                  /* Zentriert das Label vertikal innerhalb der Zelle */
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		margin: 10px;                        /* Fügt einen Außenabstand von 10px um die Eingabefelder hinzu! */
+		padding: 10px;                       /* Fügt einen Innenabstand von 10px innerhalb der Eingabefelder hinzu */
+		border: 1px solid #ccc;              /* Setzt einen grauen Rahmen um die Eingabefelder */
+		border-radius: 3px;                  /* Macht die Ecken der Eingabefelder leicht abgerundet */
+		grid-column: 2 / 3;                  /* Positioniert die Eingabefelder in der zweiten Spalte des Grid-Layouts! */
+	}
+
+	button {
+		grid-column: 1 / 3;                  /* Der Button erstreckt sich über beide Spalten! */
+		margin: 10px;                        /* Fügt einen Außenabstand von 10px um den Button hinzu */
+		padding: 10px;                       /* Fügt einen Innenabstand von 10px innerhalb des Buttons hinzu */
+		background-color: #28a745;           /* Setzt die Hintergrundfarbe des Buttons auf grün */
+		color: white;                        /* Setzt die Textfarbe des Buttons auf weiß */
+		border: none;                        /* Entfernt den Rahmen des Buttons */
+		border-radius: 3px;                  /* Macht die Ecken des Buttons leicht abgerundet */
+		cursor: pointer;                     /* Zeigt den Mauszeiger als Hand, wenn der Benutzer über den Button fährt */
+		font-size: 16px;                     /* Setzt die Schriftgröße des Buttons auf 16px */
+	}
+	/*Das Layout verwendet ein zweispaltiges Grid-System, wobei Labels in der ersten und Eingabefelder in der zweiten Spalte platziert sind.
+      Die Gesamtform des Formulars wird mit Außen- und Innenabständen definiert, sowie einem abgerundeten Rahmen.
+      Buttons sind zentriert und über beide Spalten erstreckt, und sie haben eine grüne Hintergrundfarbe für bessere Sichtbarkeit.*/
+
+    </style>
+</head>
+<body>
+
+<form>
+    <label for="vorname">Vorname:</label>
+    <input type="text" id="vorname" name="vorname">
+
+    <label for="nachname">Nachname:</label>
+    <input type="text" id="nachname" name="nachname">
+
+    <label for="email">E-Mail-Adresse:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="nachricht">Nachricht:</label>
+    <textarea id="nachricht" name="nachricht" rows="5"></textarea>
+
+    <button type="submit">Abschicken</button>
+</form>
+
+</body>
+</html>
