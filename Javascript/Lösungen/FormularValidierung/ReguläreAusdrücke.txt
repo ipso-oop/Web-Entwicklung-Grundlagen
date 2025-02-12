@@ -1,0 +1,103 @@
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    // Prevents the default form submission to handle validation
+    event.preventDefault(); 
+
+    // Resets error messages
+    let errors = document.querySelectorAll(".error");
+    errors.forEach(function(error) {
+        error.textContent = ""; // Clears any previous error messages
+    });
+
+    // Initializes a flag to track form validity
+    let isValid = true;
+
+    // Validates the first name input
+    let firstname = document.getElementById("firstname").value;
+    if (firstname === "") { // Checks if the first name is empty
+        document.getElementById("firstnameError").textContent = "Bitte Vornamen eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    }
+
+    // Validates the last name input
+    let lastname = document.getElementById("lastname").value;
+    if (lastname === "") { // Checks if the last name is empty
+        document.getElementById("lastnameError").textContent = "Bitte Nachnamen eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    }
+
+    // Validates the email input
+    let email = document.getElementById("email").value;
+    let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/; // Regular expression for email validation
+    if (email === "") { // Checks if the email field is empty
+        document.getElementById("emailError").textContent = "Bitte E-Mail-Adresse eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    } else if (!email.match(emailPattern)) { // Checks if the email does not match the pattern
+        document.getElementById("emailError").textContent = "Bitte eine gültige E-Mail-Adresse eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    }
+
+    // Validates the phone number input
+    let phone = document.getElementById("phone").value;
+    let phonePattern = /^[0-9]+$/; // Regular expression for phone number validation (digits only)
+    if (phone === "") { // Checks if the phone field is empty
+        document.getElementById("phoneError").textContent = "Bitte Telefonnummer eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    } else if (!phone.match(phonePattern)) { // Checks if the phone number contains only digits
+        document.getElementById("phoneError").textContent = "Bitte nur Ziffern eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    }
+
+    // Validates the message input
+    let message = document.getElementById("message").value;
+    if (message === "") { // Checks if the message field is empty
+        document.getElementById("messageError").textContent = "Bitte eine Nachricht eingeben."; // Displays an error message
+        isValid = false; // Sets the form validity flag to false
+    }
+
+    // If all fields are valid, display a success message
+    if (isValid) {
+        alert("Formular erfolgreich abgeschickt!"); // Shows a success alert
+    }
+});
+
+Zusammenfassung der Funktionalität:
+
+Formulareinsendung verhindern: Die Standardeinsendung des Formulars wird verhindert, um die Validierung über JavaScript durchzuführen.
+Fehler zurücksetzen: Alle früheren Fehler werden bei jedem Einsenden des Formulars gelöscht.
+Validierung: Jedes Feld (Vorname, Nachname, E-Mail, Telefonnummer, Nachricht) wird auf Vollständigkeit und korrekte Eingabeformate geprüft.
+Fehlermeldungen: Falls ein Feld nicht korrekt ausgefüllt ist, wird eine entsprechende Fehlermeldung angezeigt.
+Formular absenden: Wenn alle Felder validiert sind, wird eine Erfolgsmeldung angezeigt.
+
+Erklärung der Bestandteile:
+^ – Anker für den Anfang der Zeichenkette:
+
+Dieses Zeichen stellt sicher, dass die Prüfung direkt am Anfang der E-Mail-Adresse beginnt.
+[^ ]+ – Erlaubt alle Zeichen außer Leerzeichen:
+
+Das [^ ] ist eine Negation von Leerzeichen. Es erlaubt jedes Zeichen, das kein Leerzeichen ist.
+Das + bedeutet, dass mindestens ein Zeichen vorhanden sein muss (keine Leerzeichen).
+@ – Erforderliches Zeichen @:
+
+Das @-Symbol muss genau an dieser Stelle erscheinen und trennt den Namen von der Domäne.
+[^ ]+ – Nach dem @ müssen wieder Zeichen (ohne Leerzeichen) folgen:
+
+Wie zuvor erlaubt dieser Ausdruck alle Zeichen außer Leerzeichen. Dies repräsentiert die Domäne (z.B. gmail).
+\. – Erforderlicher Punkt .:
+
+Der Backslash \ wird verwendet, um den Punkt als tatsächliches Zeichen zu behandeln (statt eines Platzhalters für "jedes Zeichen").
+[a-z]{2,3} – Zwei bis drei Kleinbuchstaben für die Top-Level-Domäne:
+
+Dieser Teil überprüft, ob nach dem Punkt zwei oder drei Buchstaben folgen (z.B. com, de, org).
+[a-z] bedeutet, dass nur Kleinbuchstaben erlaubt sind.
+{2,3} gibt an, dass die Zeichenkette eine Länge von 2 bis 3 Zeichen haben muss.
+$ – Anker für das Ende der Zeichenkette:
+
+Stellt sicher, dass die Prüfung bis zum Ende der E-Mail-Adresse reicht und keine weiteren Zeichen erlaubt sind.
+Zusammenfassung:
+Dieser reguläre Ausdruck überprüft:
+
+Der E-Mail-Name vor dem @ darf keine Leerzeichen enthalten.
+Es muss ein @-Symbol vorhanden sein.
+Nach dem @ müssen wieder Zeichen ohne Leerzeichen stehen (der Domänenname).
+Nach einem Punkt müssen zwei oder drei Kleinbuchstaben für die Top-Level-Domäne folgen (z.B. .com oder .de).
+Reguläre Ausdrücke sind ein leistungsstarkes Tool, um komplexe Muster wie E-Mail-Adressen präzise zu validieren.

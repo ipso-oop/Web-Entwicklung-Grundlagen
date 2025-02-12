@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Formular Validierung</title>
+</head>
+<body>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="age">Alter:</label>
+        <input type="number" id="age" name="age">
+        
+        <button type="button" onclick="validateForm()">Absenden</button>
+    </form>
+
+    <script>
+    function validateForm() {
+        let name = document.getElementById("name").value;
+        let age = document.getElementById("age").value;
+
+        if (name === "" || age < 18) {
+		    console.log("Fehlerfall: Name "+name);
+			console.log("Fehlerfall: Alter "+age);
+            alert("Eingabe nicht gültig. Name muss vorhanden sein u. Alter groesser als 18.");
+        } else {
+            alert("Formular fehlerlos.");
+        }
+    }
+    </script>
+</body>
+</html>
