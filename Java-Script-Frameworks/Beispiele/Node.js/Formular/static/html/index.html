@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Formular mit Node.js</title>
+</head>
+<body>
+    <h1>Formulareingaben</h1>
+    <form action="/" method="POST">
+        <label for="firstname">Vorname:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Nachname:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="birthday">Geburtsdatum:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+
+        <button type="submit">Absenden</button>
+    </form>
+</body>
+</html>
