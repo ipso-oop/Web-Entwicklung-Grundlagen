@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML und JSON in HTML</title>
+</head>
+<body>
+    <script>
+        const xmlString = `<contacts>
+          <contact>
+            <firstname>Max</firstname>
+            <lastname>Mustermann</lastname>
+            <phone type="mobile">01234567</phone>
+            <email>max.mustermann@example.com</email>
+          </contact>
+        </contacts>`;
+
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlString, "application/xml");
+        console.log("XML-DOM-Parser");
+		console.log(xmlDoc);
+		
+
+        const jsonString = `{
+          "contacts": [
+            {
+              "firstname": "Max",
+              "lastname": "Mustermann",
+              "phone": {
+                "type": "mobile",
+                "number": "01234567"
+              },
+              "email": "max.mustermann@example.com",
+              "address": {
+                "street": "Musterstraße",
+                "number": 99,
+                "code": 12345,
+                "city": "Musterstadt"
+              }
+            }
+          ]
+        }`;
+
+        console.log("JSON-Parser: ");
+		console.log(JSON.parse(jsonString));
+    </script>
+</body>
+</html>

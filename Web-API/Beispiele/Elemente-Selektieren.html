@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Beispiel</title>
+    <script>
+        // Funktion, die Daten über AJAX abruft
+        function loadElements() {
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "https://jsonplaceholder.typicode.com/users", true);
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    const data = JSON.parse(xhr.responseText);
+                    displayElements(data);  // Daten anzeigen
+                }
+            };
+            xhr.send();  // Anfrage senden
+        }
+
+        // Funktion zum Anzeigen von Elementen auf der Webseite
+        function displayElements(elements) {
+            const output = document.getElementById("output");
+            output.innerHTML = "";  // Vorherigen Inhalt löschen
+            elements.forEach((element) => {
+                const listItem = document.createElement("li");
+                listItem.textContent = element.name;  // Nur den Namen anzeigen
+                output.appendChild(listItem);  // Hinzufügen zur Liste
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>AJAX Element Auswahl</h1>
+    <button onclick="loadElements()">Lade Elemente</button>
+    <ul id="output"></ul>
+</body>
+</html>

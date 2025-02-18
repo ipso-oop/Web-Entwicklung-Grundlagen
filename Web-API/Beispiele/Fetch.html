@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Beispiel</title>
+    <script>
+        // Funktion, um Daten mithilfe der Fetch-API zu laden
+        function loadElements() {
+            fetch('https://jsonplaceholder.typicode.com/users')  // Fetch-Aufruf für eine API
+                .then(response => response.json())  // Umwandlung der Antwort in JSON
+                .then(data => displayElements(data))  // Daten anzeigen
+                .catch(error => console.error('Fehler:', error));  // Fehlerbehandlung
+        }
+
+        // Funktion zum Anzeigen der Daten auf der Webseite
+        function displayElements(elements) {
+            const output = document.getElementById("output");
+            output.innerHTML = "";  // Vorherigen Inhalt löschen
+            elements.forEach(element => {
+                const listItem = document.createElement("li");
+                listItem.textContent = element.name;  // Nur den Namen anzeigen
+                output.appendChild(listItem);  // Hinzufügen zur Liste
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Fetch API Element Auswahl</h1>
+    <button onclick="loadElements()">Lade Elemente</button>
+    <ul id="output"></ul>
+</body>
+</html>
