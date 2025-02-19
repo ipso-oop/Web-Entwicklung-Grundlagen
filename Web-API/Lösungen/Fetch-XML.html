@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML-Daten von Server laden</title>
+</head>
+<body>
+    <h1>XML-Daten von Server laden</h1>
+    <button id="loadButton">Daten abrufen</button>
+    <div id="output"></div>
+
+    <script>
+	document.getElementById('loadButton').addEventListener('click', loadXML);
+
+     function loadXML() {
+		// Abruf der XML-Datei von der URL
+		fetch('http://localhost:8080/note.xml')
+			.then(response => response.text())  // Antwort in Text umwandeln
+			.then(xmlText => {
+				// Text in ein XML-Dokument parsen
+				let parser = new DOMParser();
+				let xmlDoc = parser.parseFromString(xmlText, "application/xml");
+				console.log(xmlDoc);
+
+				// Extrahiere und zeige die Daten aus dem XML-Dokument
+				let to = xmlDoc.getElementsByTagName("to")[0].textContent;
+				let from = xmlDoc.getElementsByTagName("from")[0].textContent;
+				let heading = xmlDoc.getElementsByTagName("heading")[0].textContent;
+				let body = xmlDoc.getElementsByTagName("body")[0].textContent;
+
+				// HTML-Ausgabe erstellen
+				let output = `
+					<p><strong>To:</strong> ${to}</p>
+					<p><strong>From:</strong> ${from}</p>
+					<p><strong>Heading:</strong> ${heading}</p>
+					<p><strong>Message:</strong> ${body}</p>
+				`;
+				document.getElementById('output').innerHTML = output;
+			})
+			.catch(error => console.error('Fehler beim Abrufen der XML-Datei:', error));
+        }
+</script>
+</body>
+</html>
