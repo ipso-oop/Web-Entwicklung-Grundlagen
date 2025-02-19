@@ -1,0 +1,85 @@
+.body {
+	background-color: black;
+}
+
+.grid {
+    background-color: black;
+	display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-image: url('images/dot.jpg');   
+}
+
+.wall {
+    background-image: url('images/wall.png'); /* Füge eine Textur für die Wände hinzu */
+    background-size: cover;
+}
+
+.power-pellet {
+    background-image: url('images/magicdot.jpg');
+    background-size: cover;
+}
+
+.bonus {
+    background-image: url('images/bonusdot.jpg');
+    background-size: cover;
+}
+
+
+.blinky {
+    background-image: url('images/ghostGreen.png');
+    background-size: cover;
+}
+
+.pinky {
+    background-image: url('images/ghostRed.png');
+    background-size: cover;
+}
+
+.inky {
+    background-image: url('images/ghostYellow.png');
+    background-size: cover;
+}
+
+.clyde {
+   background-image: url('images/ghostYellow.png');
+   background-size: cover;     
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+    position: relative;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+    animation: chomping 0.5s infinite;
+	transition: transform 0.2s ease;
+    transform: rotate(180deg); /* Startet nach rechts gerichtet */
+}
+
+@keyframes chomping {
+    0% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+    }
+    50% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    100% {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 50%);
+    }
+}
+
+
+
+.scared-ghost {
+    background-color: aquamarine;
+}
