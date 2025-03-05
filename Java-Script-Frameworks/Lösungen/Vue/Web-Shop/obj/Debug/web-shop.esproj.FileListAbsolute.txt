@@ -1,0 +1,3 @@
+C:\Repo\Web-Development\Java-Script-Frameworks\Beispiele\Vue\Web-Shop\obj\Debug\web-shop.esproj.CoreCompileInputs.cache
+C:\Repo\Web-Development\Java-Script-Frameworks\Lösungen\Vue\Web-Shop\obj\Debug\web-shop.esproj.CoreCompileInputs.cache
+C:\Repo\Web-Entwicklung-Grundlagen\Java-Script-Frameworks\Lösungen\Vue\Web-Shop\obj\Debug\web-shop.esproj.CoreCompileInputs.cache
