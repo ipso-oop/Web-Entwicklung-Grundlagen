@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\components\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\Cart.js",
+              "RelativeDocumentMoniker": "src\\components\\Cart.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\Cart.js",
+              "RelativeToolTip": "src\\components\\Cart.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T08:56:34.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-05T08:56:34.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-05T08:56:34.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

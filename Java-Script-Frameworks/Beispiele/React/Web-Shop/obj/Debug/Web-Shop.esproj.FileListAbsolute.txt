@@ -1,0 +1,3 @@
+C:\Repo\Web-Development\Java-Script-Frameworks\Beispiele\React2\reactproject1\obj\Debug\Web-Shop.esproj.CoreCompileInputs.cache
+C:\Repo\Web-Development\Java-Script-Frameworks\Beispiele\React\Web-Shop\obj\Debug\Web-Shop.esproj.CoreCompileInputs.cache
+C:\Repo\Web-Entwicklung-Grundlagen\Java-Script-Frameworks\Beispiele\React\Web-Shop\obj\Debug\Web-Shop.esproj.CoreCompileInputs.cache

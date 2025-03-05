@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.cart {
+  margin: 20px;
+}

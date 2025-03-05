@@ -1,0 +1,2 @@
+C:\Repo\Web-Development\Java-Script-Frameworks\Beispiele\Vue\HelloWorld\obj\Debug\helloworld.esproj.CoreCompileInputs.cache
+C:\Repo\Web-Entwicklung-Grundlagen\Java-Script-Frameworks\Beispiele\Vue\HelloWorld\obj\Debug\helloworld.esproj.CoreCompileInputs.cache

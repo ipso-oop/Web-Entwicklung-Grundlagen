@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\HelloWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B294A31C-1255-4C57-8000-B7A5617F163C}|helloworld.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\helloworld\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B294A31C-1255-4C57-8000-B7A5617F163C}|helloworld.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B294A31C-1255-4C57-8000-B7A5617F163C}|helloworld.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\helloworld\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B294A31C-1255-4C57-8000-B7A5617F163C}|helloworld.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\HelloWorld\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\HelloWorld\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-05T08:56:05.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\HelloWorld\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\HelloWorld\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-05T08:56:05.065Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

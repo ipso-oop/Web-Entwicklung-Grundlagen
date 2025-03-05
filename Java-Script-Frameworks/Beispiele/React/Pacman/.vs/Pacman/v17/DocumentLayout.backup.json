@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\src\\app_old.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:src\\app_old.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\pacman\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F5ABFACC-5397-49A1-952E-2971498F76D6}|pacman.esproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App_old.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\App_old.jsx",
+              "RelativeDocumentMoniker": "src\\App_old.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\App_old.jsx",
+              "RelativeToolTip": "src\\App_old.jsx",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-19T20:24:33.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-02-19T20:24:33.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-19T20:24:33.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\App.css",
+              "RelativeDocumentMoniker": "src\\App.css",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\App.css",
+              "RelativeToolTip": "src\\App.css",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-19T20:24:33.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-19T20:24:33.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-19T20:24:33.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T20:24:33.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-19T20:24:33.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Pacman\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-19T20:24:33.823Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
