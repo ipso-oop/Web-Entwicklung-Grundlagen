@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\src\\components\\cart.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:src\\components\\cart.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\src\\components\\productlist.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:src\\components\\productlist.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\src\\components\\cart.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:src\\components\\cart.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\web-shop\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{95FFAD82-79F5-4911-9171-2F360D2B2600}|web-shop.esproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-05T17:26:17.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\vite.config.js",
               "RelativeDocumentMoniker": "vite.config.js",
@@ -52,13 +69,14 @@
               "RelativeDocumentMoniker": "src\\App.vue",
               "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\src\\App.vue",
               "RelativeToolTip": "src\\App.vue",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-09-20T11:40:42.231Z"
+              "WhenOpened": "2024-09-20T11:40:42.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "main.js",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\src\\main.js",
               "RelativeDocumentMoniker": "src\\main.js",
@@ -71,27 +89,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Cart.vue",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\src\\components\\Cart.vue",
               "RelativeDocumentMoniker": "src\\components\\Cart.vue",
               "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\src\\components\\Cart.vue",
               "RelativeToolTip": "src\\components\\Cart.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-09-19T07:11:22.363Z"
+              "WhenOpened": "2024-09-19T07:11:22.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductList.vue",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\src\\components\\ProductList.vue",
               "RelativeDocumentMoniker": "src\\components\\ProductList.vue",
               "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\Web-Shop\\src\\components\\ProductList.vue",
               "RelativeToolTip": "src\\components\\ProductList.vue",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-09-19T07:10:42.177Z"
+              "WhenOpened": "2024-09-19T07:10:42.177Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\HelloWorld\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{144BE7E8-0FD3-40C1-B8E6-94D0F1CF08AD}|helloworld.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\helloworld\\src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{144BE7E8-0FD3-40C1-B8E6-94D0F1CF08AD}|helloworld.esproj|solutionrelative:src\\components\\helloworld.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144BE7E8-0FD3-40C1-B8E6-94D0F1CF08AD}|helloworld.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\vue\\helloworld\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{144BE7E8-0FD3-40C1-B8E6-94D0F1CF08AD}|helloworld.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HelloWorld.vue",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\HelloWorld\\src\\components\\HelloWorld.vue",
+              "RelativeDocumentMoniker": "src\\components\\HelloWorld.vue",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\HelloWorld\\src\\components\\HelloWorld.vue",
+              "RelativeToolTip": "src\\components\\HelloWorld.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-03-05T17:16:30.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\HelloWorld\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\Vue\\HelloWorld\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-05T17:09:53.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

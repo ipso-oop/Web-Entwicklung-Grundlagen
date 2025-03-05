@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\components\\productlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\productlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\components\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\components\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\beispiele\\react\\web-shop\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -22,36 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductList.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\ProductList.js",
+              "RelativeDocumentMoniker": "src\\components\\ProductList.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\ProductList.js",
+              "RelativeToolTip": "src\\components\\ProductList.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T18:42:50.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Product.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\Product.js",
+              "RelativeDocumentMoniker": "src\\components\\Product.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\Product.js",
+              "RelativeToolTip": "src\\components\\Product.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T18:42:41.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Cart.js",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\Cart.js",
               "RelativeDocumentMoniker": "src\\components\\Cart.js",
               "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\components\\Cart.js",
               "RelativeToolTip": "src\\components\\Cart.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-05T08:56:34.929Z"
+              "WhenOpened": "2025-03-05T08:56:34.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-03-05T08:56:34.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\Beispiele\\React\\Web-Shop\\src\\main.jsx",
               "RelativeDocumentMoniker": "src\\main.jsx",

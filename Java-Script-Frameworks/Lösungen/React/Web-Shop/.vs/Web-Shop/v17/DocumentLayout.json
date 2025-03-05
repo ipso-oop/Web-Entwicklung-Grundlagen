@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\components\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\components\\productlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\productlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\components\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\components\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|c:\\repo\\web-entwicklung-grundlagen\\java-script-frameworks\\l\u00F6sungen\\react\\web-shop\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE39C5FD-8194-46EE-BF80-128F05435C2D}|Web-Shop.esproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\components\\Cart.js",
+              "RelativeDocumentMoniker": "src\\components\\Cart.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\components\\Cart.js",
+              "RelativeToolTip": "src\\components\\Cart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T08:59:42.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductList.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\components\\ProductList.js",
+              "RelativeDocumentMoniker": "src\\components\\ProductList.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\components\\ProductList.js",
+              "RelativeToolTip": "src\\components\\ProductList.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T08:59:42.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\components\\Product.js",
+              "RelativeDocumentMoniker": "src\\components\\Product.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\components\\Product.js",
+              "RelativeToolTip": "src\\components\\Product.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T08:59:42.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\App.css",
+              "RelativeDocumentMoniker": "src\\App.css",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\App.css",
+              "RelativeToolTip": "src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T08:59:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-05T08:59:42.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T08:59:42.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-03-05T08:59:42.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "C:\\Repo\\Web-Entwicklung-Grundlagen\\Java-Script-Frameworks\\L\u00F6sungen\\React\\Web-Shop\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-05T08:59:42.519Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
