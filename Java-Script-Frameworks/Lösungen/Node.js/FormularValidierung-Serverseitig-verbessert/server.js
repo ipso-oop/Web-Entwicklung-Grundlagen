@@ -22,12 +22,14 @@ app.post('/', [
     body('firstname').notEmpty().withMessage('Vorname darf nicht leer sein'),
     body('lastname').notEmpty().withMessage('Nachname darf nicht leer sein'),
     body('email').isEmail().withMessage('Bitte geben Sie eine gültige E-Mail-Adresse ein.'),
-    body('phone').optional().isMobilePhone().withMessage('Bitte geben Sie eine gültige Telefonnummer ein.'),
+    body('phone').optional({ checkFalsy: true }).isMobilePhone().withMessage('Bitte geben Sie eine gültige Telefonnummer ein.'),
     body('message').notEmpty().withMessage('Nachricht darf nicht leer sein')
 ], (req, res) => {
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
+        const mappedErrors = errors.mapped();
+
         // Wenn es Fehler gibt, sende das Formular mit den Fehlern zurück
         return res.status(400).send(`
             <html lang="de">
@@ -47,24 +49,24 @@ app.post('/', [
 
             <form class="form-container" action="/" method="POST">
                 <label for="firstname">Vorname:</label>
-                <input type="text" id="firstname" name="firstname" value="${req.body.firstname}">
-                <span class="error">${errors.array()[0].msg || ''}</span>
+                <input type="text" id="firstname" name="firstname" value="${req.body.firstname || ''}">
+                <span class="error">${mappedErrors.firstname?.msg || ''}</span>
 
                 <label for="lastname">Nachname:</label>
-                <input type="text" id="lastname" name="lastname" value="${req.body.lastname}">
-                <span class="error">${errors.array()[1].msg || ''}</span>
+                <input type="text" id="lastname" name="lastname" value="${req.body.lastname || ''}">
+                <span class="error">${mappedErrors.lastname?.msg || ''}</span>
 
                 <label for="email">E-Mail:</label>
-                <input type="email" id="email" name="email" value="${req.body.email}">
-                <span class="error">${errors.array()[2].msg || ''}</span>
+                <input type="email" id="email" name="email" value="${req.body.email || ''}">
+                <span class="error">${mappedErrors.email?.msg || ''}</span>
 
                 <label for="phone">Telefonnummer:</label>
                 <input type="text" id="phone" name="phone" value="${req.body.phone || ''}">
-                <span class="error">${errors.array()[3].msg || ''}</span>
+                <span class="error">${mappedErrors.phone?.msg || ''}</span>
 
                 <label for="message">Nachricht:</label>
-                <textarea id="message" name="message">${req.body.message}</textarea>
-                <span class="error">${errors.array()[4].msg || ''}</span>
+                <textarea id="message" name="message">${req.body.message || ''}</textarea>
+                <span class="error">${mappedErrors.message?.msg || ''}</span>
 
                 <button type="submit">Absenden</button>
             </form>
