@@ -1,5 +1,9 @@
-.body {
+body {
 	background-color: black;
+}
+
+.App {
+    color: white;
 }
 
 .grid {
@@ -17,17 +21,43 @@
 }
 
 .pac-dot {
-    background-image: url('images/dot.jpg');   
+    background-color: black;
+    position: relative;
+}
+
+.pac-dot::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffd966;
+    position: absolute;
+    top: 7px;
+    left: 7px;
 }
 
 .wall {
-    background-image: url('images/wall.png'); /* Füge eine Textur für die Wände hinzu */
-    background-size: cover;
+    background-color: #1e4cb5;
+}
+
+.ghost-lair {
+    background-color: #3a3a3a;
 }
 
 .power-pellet {
-    background-image: url('images/magicdot.jpg');
-    background-size: cover;
+    background-color: black;
+    position: relative;
+}
+
+.power-pellet::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffd966;
+    position: absolute;
+    top: 4px;
+    left: 4px;
 }
 
 .bonus {
